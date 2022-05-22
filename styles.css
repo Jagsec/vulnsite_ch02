@@ -1,0 +1,33 @@
+body {
+    background-color: #8d99ae;
+    color: #003459
+}
+
+.navbar {
+    background-color: #2b2d42;
+    color: #edf2f4;
+}
+
+.text-center {
+    border: 3px solid #2b2d42;
+    background-color: #edf2f4;
+}
+
+.text-center:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
+    transform: translateY(-0.25em);
+}
+
+.img-thumbnail {
+    height: 250px;
+    padding: 20px 20px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear{
+    opacity: 1;
+}
